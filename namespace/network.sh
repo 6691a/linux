@@ -47,7 +47,7 @@ ip link set veth1 up
 ip link set ceth0 netns ns0
 ip link set ceth1 netns ns1
 
-# ceth* 시작
+# ceth* 시작``
 ip netns exec ns0 ip link set ceth0 up
 ip netns exec ns1 ip link set ceth1 up
 
